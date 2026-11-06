@@ -1,0 +1,9 @@
+.env
+.env.local
+.claude
+node_modules
+dist
+public/js
+
+# TypeScript build artifacts
+*.tsbuildinfo

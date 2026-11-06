@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ES2024"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/ui": ["./src/theme/components/"]
+    },
+    "strictNullChecks": true,
+    "target": "ES2022",
+    "types": ["@rsbuild/core/types"],
+    "useDefineForClassFields": true
+  },
+  "exclude": ["**/node_modules", "dist"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "rsbuild.config.ts"]
+}

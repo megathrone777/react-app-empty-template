@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      content="initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover, width=device-width"
+      name="viewport"
+    >
+    <meta
+      content="App description"
+      name="description"
+    >
+    <title>App title</title>
+    <link href="/favicon.ico" rel="shortcut icon">
+    <style>
+      @keyframes spin {
+        from {
+          transform: translateY(-50%) rotate(0deg);
+        }
+
+        to {
+          transform: translateY(-50%) rotate(360deg);
+        }
+      }
+
+      @font-face {
+        font-display: block;
+        font-family: "AvenirNext";
+        font-weight: 400;
+        src: url("/fonts/AvenirNext-Regular.woff2");
+      }
+
+      @font-face {
+        font-display: block;
+        font-family: "AvenirNext";
+        font-weight: 500;
+        src: url("/fonts/AvenirNext-Medium.woff2");
+      }
+
+      @font-face {
+        font-display: block;
+        font-family: "AvenirNext";
+        font-weight: 600;
+        src: url("/fonts/AvenirNext-Demi.woff2");
+      }
+
+      @font-face {
+        font-display: block;
+        font-family: "AvenirNext";
+        font-weight: 700;
+        src: url("/fonts/AvenirNext-Bold.woff2");
+      }
+
+      *, *::after, *::before {
+        box-sizing: border-box;
+      }
+
+      *:not(dialog) {
+        margin: 0;
+      }
+
+      html, body, #root {
+        min-height: 100dvh;
+      }
+
+      body {
+        font: 16px "AvenirNext", sans-serif;
+      }
+
+      .root-spinner {
+        animation: spin .5s linear infinite;
+        border-radius: 50%;
+        border: 10px solid #ff9b1b;
+        border-top-color: transparent;
+        height: 60px;
+        inset-inline: 0;
+        margin-inline: auto;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="root-spinner"></div>
+    </div>
+  </body>
+</html>

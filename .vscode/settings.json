@@ -1,0 +1,12 @@
+{
+  "[css]": { "editor.defaultFormatter": "oxc.oxc-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "oxc.oxc-vscode" },
+  "[json]": { "editor.defaultFormatter": "oxc.oxc-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "oxc.oxc-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "oxc.oxc-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "oxc.oxc-vscode" },
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "js/ts.experimental.useTsgo": true,
+  "oxc.fmt.configPath": "./oxfmt.config.ts",
+  "js/ts.tsdk.path": "node_modules\\typescript"
+}
